@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>
-                <form>
+                <form action="agregar.php" method="POST">
 
                     <label class="flabel">Identificación</label>
                     <input type="number" name="id" id="id" required min="0" class="ftxt" placeholder="Identificación">
@@ -53,6 +53,7 @@
                     </select>
             
                     <input type=submit value=Agregar class="fboton">
+
            
                 </form>
             </td>
