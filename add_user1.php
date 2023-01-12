@@ -37,7 +37,7 @@
 
                     <div class="mb-3">
                         <label for="textel" class="form-label">Comuna</label>
-                        <input type="number" required name="txttel" id="txttel" class="form-control">
+                        <input type="number" required name="txttel" id="txttel" class="form-control" max="14" min="1">
                     </div>
                     
                     <hr>
